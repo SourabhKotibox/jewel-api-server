@@ -1,0 +1,15 @@
+{
+  "emptyTitle": "Your Cart is Empty",
+  "emptySubtitle": "Discover our handcrafted collections and add pieces you love.",
+  "emptyCta": "Continue Shopping",
+  "title": "Your Cart",
+  "summaryTitle": "Order Summary",
+  "checkoutCta": "Proceed to Checkout",
+  "subtotalLabel": "Subtotal",
+  "trustNote": "Secure checkout · Certified jewellery",
+  "sectionLayout": {
+    "hidden": [],
+    "order": ["empty", "header", "summary"],
+    "customSections": []
+  }
+}

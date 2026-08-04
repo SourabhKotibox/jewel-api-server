@@ -1,0 +1,26 @@
+{
+  "heroEyebrow": "Retail Showrooms",
+  "heroTitle": "Our Boutiques",
+  "heroSubtitle": "Experience Madhu in person across India — book a private viewing at a boutique near you.",
+  "heroImage": "",
+  "callLabel": "Call Store",
+  "directionsLabel": "Get Directions",
+  "hoursIconLabel": "",
+  "emptyTitle": "No boutiques listed yet",
+  "emptySubtitle": "Add store locations from Admin → Stores.",
+  "ctaEyebrow": "Private Appointments",
+  "ctaTitle": "Book a Boutique Visit",
+  "ctaBody": "Prefer a private viewing? Reach out and our team will arrange a dedicated appointment at a showroom near you.",
+  "ctaPrimary": "Contact Us",
+  "ctaPrimaryLink": "/contact",
+  "ctaImage": "",
+  "sectionLayout": {
+    "hidden": [],
+    "order": [
+      "hero",
+      "grid",
+      "cta"
+    ],
+    "customSections": []
+  }
+}

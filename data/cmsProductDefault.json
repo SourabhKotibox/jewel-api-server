@@ -1,0 +1,18 @@
+{
+  "addToBag": "Add to Cart",
+  "buyNow": "Buy Now",
+  "completeLook": "Complete the Look",
+  "specifications": "Specifications",
+  "description": "Description",
+  "shareLabel": "Share",
+  "wishlistLabel": "Save to Wishlist",
+  "shippingTitle": "Shipping & Delivery",
+  "shippingBody": "Free insured shipping on eligible orders. Made-to-order pieces ship within the stated timeline.",
+  "returnsTitle": "Returns & Buyback",
+  "returnsBody": "Lifetime buyback available on hallmarked gold jewellery as per store policy.",
+  "sectionLayout": {
+    "hidden": [],
+    "order": ["actions", "info", "shipping", "completeLook"],
+    "customSections": []
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "announcement1": "Complimentary shipping outside India on orders above INR 200,000",
+  "announcement2": "Download the Madhu App & Get ₹5,000 Off",
+  "announcement3": "Welcome to our store — Talk to us on +91 96195 87978",
+  "searchPlaceholder": "Search our site...",
+  "megaDiscoverLabel": "Discover",
+  "megaCollectionSuffix": "Collection",
+  "navMenuJson": "[\n  {\n    \"label\": \"Jewellery\",\n    \"slug\": \"all-jewellery\",\n    \"columns\": [\n      {\n        \"heading\": \"Necklaces\",\n        \"items\": [\n          \"Diamond Necklaces\",\n          \"Polki Necklaces\",\n          \"Gold Necklaces\",\n          \"Chokers\",\n          \"Polki Pendants\"\n        ]\n      },\n      {\n        \"heading\": \"Earrings\",\n        \"items\": [\n          \"Diamond Earrings\",\n          \"Polki Earrings\",\n          \"Jhumkas\",\n          \"Chandbalis\",\n          \"Tops\"\n        ]\n      },\n      {\n        \"heading\": \"Rings\",\n        \"items\": [\n          \"Diamond Rings\",\n          \"Polki Rings\",\n          \"Gold Rings\",\n          \"Solitaire Rings\",\n          \"Engagement Rings\",\n          \"Cocktail Rings\"\n        ]\n      },\n      {\n        \"heading\": \"More\",\n        \"items\": [\n          \"Bracelets\",\n          \"Bangles\",\n          \"Maang Tikkas\",\n          \"Bridal Sets\",\n          \"Diamond Sets\"\n        ]\n      }\n    ],\n    \"featuredImage\": \"https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop\"\n  },\n  {\n    \"label\": \"Diamond\",\n    \"slug\": \"diamond-jewellery\",\n    \"columns\": [\n      {\n        \"heading\": \"Shop Diamond\",\n        \"items\": [\n          \"Diamond Necklaces\",\n          \"Diamond Earrings\",\n          \"Diamond Bangles\",\n          \"Diamond Bracelets\",\n          \"Diamond Rings\"\n        ]\n      }\n    ],\n    \"featuredImage\": \"https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=800&auto=format&fit=crop\"\n  },\n  {\n    \"label\": \"Polki\",\n    \"slug\": \"all-polki-jewellery\",\n    \"columns\": [\n      {\n        \"heading\": \"Shop Polki\",\n        \"items\": [\n          \"Polki Necklaces\",\n          \"Polki Earrings\",\n          \"Polki Rings\",\n          \"Polki Bracelets\",\n          \"Maang Tikkas\",\n          \"Polki Sets\"\n        ]\n      }\n    ],\n    \"featuredImage\": \"https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop\"\n  },\n  {\n    \"label\": \"Ships in 3 Days\",\n    \"slug\": \"ready-to-ship\",\n    \"columns\": [\n      {\n        \"heading\": \"Ready to Ship\",\n        \"items\": [\n          \"Chokers\",\n          \"Necklaces\",\n          \"Jhumkas\",\n          \"Long Earrings\",\n          \"Bangles\",\n          \"Rings\"\n        ]\n      }\n    ],\n    \"featuredImage\": \"https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop\"\n  },\n  {\n    \"label\": \"Bridal\",\n    \"slug\": \"bridal-jewellery\",\n    \"columns\": [\n      {\n        \"heading\": \"Occasions\",\n        \"items\": [\n          \"Engagement\",\n          \"Mehndi\",\n          \"Sangeet\",\n          \"The Big Day\",\n          \"Reception/Party\"\n        ]\n      }\n    ],\n    \"featuredImage\": \"https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=800&auto=format&fit=crop\"\n  },\n  {\n    \"label\": \"Stores\",\n    \"slug\": \"/stores\",\n    \"direct\": true\n  }\n]",
+  "shopHeading": "Shop",
+  "shopLinksText": "Necklaces|/shop?category=Necklaces\nEarrings|/shop?category=Earrings\nRings|/shop?category=Rings\nDiamond Rings|/shop?category=Diamond+Rings\nBracelets|/shop?category=Bracelets\nMaang Tikkas|/shop?category=Maang+Tikkas",
+  "exploreHeading": "Explore",
+  "exploreLinksText": "Lumina by Madhu|/collections/all-jewellery\nAurora by Madhu|/collections/all-jewellery\nNoor by Madhu|/collections/all-jewellery\nBestsellers|/collections/all-jewellery\nGifting|/collections/all-jewellery",
+  "moreHeading": "More",
+  "moreLinksText": "About Us|/about\nContact Us|/contact\nStores|/stores\nFAQs|/about\nTerms & Conditions|/about\nPrivacy Policy|/about",
+  "benefitsHeading": "Exclusive Benefits",
+  "benefitsText": "Apply for free membership to receive exclusive deals, news, and events.",
+  "joinCta": "Join",
+  "emailPlaceholder": "Enter email here",
+  "copyright": "Madhu Jewellery Private Limited. All Rights Reserved.",
+  "whatsappText": "Chat with us",
+  "navMenu": [
+    {
+      "label": "Jewellery",
+      "slug": "all-jewellery",
+      "columns": [
+        {
+          "heading": "Necklaces",
+          "items": [
+            "Diamond Necklaces",
+            "Polki Necklaces",
+            "Gold Necklaces",
+            "Chokers",
+            "Polki Pendants"
+          ]
+        },
+        {
+          "heading": "Earrings",
+          "items": [
+            "Diamond Earrings",
+            "Polki Earrings",
+            "Jhumkas",
+            "Chandbalis",
+            "Tops"
+          ]
+        },
+        {
+          "heading": "Rings",
+          "items": [
+            "Diamond Rings",
+            "Polki Rings",
+            "Gold Rings",
+            "Solitaire Rings",
+            "Engagement Rings",
+            "Cocktail Rings"
+          ]
+        },
+        {
+          "heading": "More",
+          "items": [
+            "Bracelets",
+            "Bangles",
+            "Maang Tikkas",
+            "Bridal Sets",
+            "Diamond Sets"
+          ]
+        }
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "label": "Diamond",
+      "slug": "diamond-jewellery",
+      "columns": [
+        {
+          "heading": "Shop Diamond",
+          "items": [
+            "Diamond Necklaces",
+            "Diamond Earrings",
+            "Diamond Bangles",
+            "Diamond Bracelets",
+            "Diamond Rings"
+          ]
+        }
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "label": "Polki",
+      "slug": "all-polki-jewellery",
+      "columns": [
+        {
+          "heading": "Shop Polki",
+          "items": [
+            "Polki Necklaces",
+            "Polki Earrings",
+            "Polki Rings",
+            "Polki Bracelets",
+            "Maang Tikkas",
+            "Polki Sets"
+          ]
+        }
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "label": "Ships in 3 Days",
+      "slug": "ready-to-ship",
+      "columns": [
+        {
+          "heading": "Ready to Ship",
+          "items": [
+            "Chokers",
+            "Necklaces",
+            "Jhumkas",
+            "Long Earrings",
+            "Bangles",
+            "Rings"
+          ]
+        }
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "label": "Bridal",
+      "slug": "bridal-jewellery",
+      "columns": [
+        {
+          "heading": "Occasions",
+          "items": [
+            "Engagement",
+            "Mehndi",
+            "Sangeet",
+            "The Big Day",
+            "Reception/Party"
+          ]
+        }
+      ],
+      "featuredImage": "https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "label": "Stores",
+      "slug": "/stores",
+      "direct": true
+    }
+  ],
+  "shopLinks": [
+    {
+      "label": "Necklaces",
+      "path": "/collections/all-necklaces"
+    },
+    {
+      "label": "Earrings",
+      "path": "/collections/polki-earrings"
+    },
+    {
+      "label": "Rings",
+      "path": "/collections/polki-accessories"
+    },
+    {
+      "label": "Bracelets",
+      "path": "/collections/bracelets-for-women"
+    },
+    {
+      "label": "Maang Tikkas",
+      "path": "/collections/polki-accessories"
+    }
+  ],
+  "exploreLinks": [
+    {
+      "label": "Lumina by Madhu",
+      "path": "/collections/all-jewellery"
+    },
+    {
+      "label": "Aurora by Madhu",
+      "path": "/collections/all-jewellery"
+    },
+    {
+      "label": "Noor by Madhu",
+      "path": "/collections/all-jewellery"
+    },
+    {
+      "label": "Bestsellers",
+      "path": "/collections/all-jewellery"
+    },
+    {
+      "label": "Gifting",
+      "path": "/collections/all-jewellery"
+    }
+  ],
+  "moreLinks": [
+    {
+      "label": "About Us",
+      "path": "/about"
+    },
+    {
+      "label": "Stores",
+      "path": "/stores"
+    },
+    {
+      "label": "FAQs",
+      "path": "/about"
+    },
+    {
+      "label": "Terms & Conditions",
+      "path": "/about"
+    },
+    {
+      "label": "Privacy Policy",
+      "path": "/about"
+    }
+  ]
+}

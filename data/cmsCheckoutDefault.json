@@ -1,0 +1,15 @@
+{
+  "emptyTitle": "Your Bag is Empty",
+  "emptySubtitle": "Add pieces to your bag before checking out.",
+  "emptyCta": "Continue Shopping",
+  "contactTitle": "Contact",
+  "deliveryTitle": "Delivery",
+  "paymentTitle": "Payment",
+  "placeOrder": "Place Order via WhatsApp",
+  "orderSummary": "Order Summary",
+  "sectionLayout": {
+    "hidden": [],
+    "order": ["empty", "form", "summary"],
+    "customSections": []
+  }
+}

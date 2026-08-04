@@ -1,0 +1,67 @@
+{
+  "eyebrow": "Madhu Jewellery",
+  "showingPrefix": "Showing",
+  "resultsLabel": "creations",
+  "sortLabel": "Sort By:",
+  "sortFeatured": "Featured",
+  "sortPriceAsc": "Price: Low to High",
+  "sortPriceDesc": "Price: High to Low",
+  "sortNameAsc": "Alphabetical: A-Z",
+  "emptyTitle": "No Creations Found",
+  "emptySubtitle": "We are currently cataloging more products. Speak to our couture consultants on WhatsApp for customized requests.",
+  "defaultDescription": "Discover our unique handcrafted designs, featuring natural uncut diamonds and brilliant gold settings.",
+  "defaultBgImage": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1600&auto=format&fit=crop",
+  "categoriesText": "all-jewellery|All Creations|Explore our entire catalog of certified uncut diamond and fine gold treasures, handcrafted to perfection.|https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1600&auto=format&fit=crop\nall-necklaces|Necklaces & Chokers|Make a breathtaking statement with our regal chokers, necklaces, and delicate pendants set in 22KT gold.|https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1600&auto=format&fit=crop\npolki-earrings|Polki & Gold Earrings|From royal chandbalis to classic stud tops, find the perfect pair to frame your face with light.|https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=1600&auto=format&fit=crop\nbracelets-for-women|Karas & Bracelets|Adorn your wrists with handcrafted solid gold bangles, cuffs, and Karas, detailed with exquisite Jadau work.|https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1600&auto=format&fit=crop\npolki-accessories|Rings, Maang Tikkas & Accessories|Finishing details that complete a couture statement. Explore luxury cocktail rings and head ornaments.|https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1600&auto=format&fit=crop\npolki-diamond-jewellery-sets|Exquisite Sets|Coordinated masterpieces designed to elevate bridal and festive ensembles with unmatched symmetry and grandeur.|https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1600&auto=format&fit=crop\nbridal-jewellery|Bridal Couture Collection|Timeless handcrafted bridal suites designed for milestone moments and legacy celebrations in 22KT gold.|https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?q=80&w=1600&auto=format&fit=crop\ndiamond-jewellery|Diamond Jewellery|Sleek, modern interpretations of luxury. Brilliant-cut natural diamonds crafted into contemporary geometries.|https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=1600&auto=format&fit=crop\nall-polki-jewellery|The Polki Jadau Collection|Raw uncut diamonds nestled in gold foil settings, channeling the heritage of royal Indian design.|https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=1600&auto=format&fit=crop\nready-to-ship|Ready to Ship|Handcrafted favorites, fully certified and ready for immediate secure shipment to your doorstep.|https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1600&auto=format&fit=crop",
+  "categories": {
+    "all-jewellery": {
+      "title": "All Creations",
+      "description": "Explore our entire catalog of certified uncut diamond and fine gold treasures, handcrafted to perfection.",
+      "bgImage": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1600&auto=format&fit=crop"
+    },
+    "all-necklaces": {
+      "title": "Necklaces & Chokers",
+      "description": "Make a breathtaking statement with our regal chokers, necklaces, and delicate pendants set in 22KT gold.",
+      "bgImage": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1600&auto=format&fit=crop"
+    },
+    "polki-earrings": {
+      "title": "Polki & Gold Earrings",
+      "description": "From royal chandbalis to classic stud tops, find the perfect pair to frame your face with light.",
+      "bgImage": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=1600&auto=format&fit=crop"
+    },
+    "bracelets-for-women": {
+      "title": "Karas & Bracelets",
+      "description": "Adorn your wrists with handcrafted solid gold bangles, cuffs, and Karas, detailed with exquisite Jadau work.",
+      "bgImage": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1600&auto=format&fit=crop"
+    },
+    "polki-accessories": {
+      "title": "Rings, Maang Tikkas & Accessories",
+      "description": "Finishing details that complete a couture statement. Explore luxury cocktail rings and head ornaments.",
+      "bgImage": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=1600&auto=format&fit=crop"
+    },
+    "polki-diamond-jewellery-sets": {
+      "title": "Exquisite Sets",
+      "description": "Coordinated masterpieces designed to elevate bridal and festive ensembles with unmatched symmetry and grandeur.",
+      "bgImage": "https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1600&auto=format&fit=crop"
+    },
+    "bridal-jewellery": {
+      "title": "Bridal Couture Collection",
+      "description": "Timeless handcrafted bridal suites designed for milestone moments and legacy celebrations in 22KT gold.",
+      "bgImage": "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?q=80&w=1600&auto=format&fit=crop"
+    },
+    "diamond-jewellery": {
+      "title": "Diamond Jewellery",
+      "description": "Sleek, modern interpretations of luxury. Brilliant-cut natural diamonds crafted into contemporary geometries.",
+      "bgImage": "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=1600&auto=format&fit=crop"
+    },
+    "all-polki-jewellery": {
+      "title": "The Polki Jadau Collection",
+      "description": "Raw uncut diamonds nestled in gold foil settings, channeling the heritage of royal Indian design.",
+      "bgImage": "https://images.unsplash.com/photo-1635767798638-3e25273a8236?q=80&w=1600&auto=format&fit=crop"
+    },
+    "ready-to-ship": {
+      "title": "Ready to Ship",
+      "description": "Handcrafted favorites, fully certified and ready for immediate secure shipment to your doorstep.",
+      "bgImage": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1600&auto=format&fit=crop"
+    }
+  }
+}

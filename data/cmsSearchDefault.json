@@ -1,0 +1,12 @@
+{
+  "eyebrow": "Search Results",
+  "titlePrefix": "Results for",
+  "emptyTitle": "No matches found",
+  "emptySubtitle": "Try a different keyword or browse collections.",
+  "browseCta": "Browse Collections",
+  "sectionLayout": {
+    "hidden": [],
+    "order": ["header", "empty"],
+    "customSections": []
+  }
+}

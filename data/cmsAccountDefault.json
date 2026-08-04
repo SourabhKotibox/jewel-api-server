@@ -1,0 +1,15 @@
+{
+  "title": "My Account",
+  "loginTitle": "Welcome Back",
+  "registerTitle": "Create Account",
+  "ordersTab": "Orders",
+  "profileTab": "Profile",
+  "addressesTab": "Addresses",
+  "loginCta": "Sign In",
+  "registerCta": "Create Account",
+  "sectionLayout": {
+    "hidden": [],
+    "order": ["header", "auth", "tabs"],
+    "customSections": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "eyebrow": "Saved",
+  "title": "Your Wishlist",
+  "emptyTitle": "No saved pieces yet",
+  "emptySubtitle": "Tap the heart on any product to save it here.",
+  "emptyCta": "Start Shopping",
+  "sectionLayout": {
+    "hidden": [],
+    "order": ["header", "empty"],
+    "customSections": []
+  }
+}

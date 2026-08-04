@@ -1,0 +1,52 @@
+{
+  "heroEyebrow": "Our Story",
+  "heroTitle": "The House of Madhu",
+  "heroSubtitle": "A legacy of handcrafted jewellery spanning generations of artistry.",
+  "heroImage": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=1600&auto=format&fit=crop",
+  "quote": "Jewellery is not just an ornament — it is memory, emotion, and heritage forged in gold.",
+  "quoteAttribution": "— Madhu Kadel, Founder",
+  "craftEyebrow": "The Heritage Craft",
+  "craftTitle": "The Imperial Art of Jadau",
+  "craftBody": "Our ateliers preserve the centuries-old Jadau technique, setting uncut diamonds into gold with meticulous precision.",
+  "craftImage": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800&auto=format&fit=crop",
+  "polkiEyebrow": "Natural Raw Gems",
+  "polkiTitle": "Uncut Polki Diamonds",
+  "polkiBody": "Each Polki stone is carefully selected for clarity and character, celebrating the raw beauty of nature.",
+  "polkiImage": "https://i.pinimg.com/736x/8f/36/30/8f36301407942819d6e354b7f8e5213d.jpg",
+  "trustEyebrow": "Our Assurances",
+  "trustTitle": "The Pillars of Madhu Trust",
+  "trustPillarsText": "Certified Authenticity|SGL certified diamonds & BIS hallmarked gold.|ShieldCheck\nLifetime Buyback|Assured value on your heirloom pieces.|Award\nHandcrafted Care|Every piece made by master karigars.|Heart\nBespoke Service|Custom bridal trunks and private fittings.|Sparkles",
+  "trustPillars": [
+    {
+      "title": "Certified Authenticity",
+      "body": "SGL certified diamonds & BIS hallmarked gold.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "title": "Lifetime Buyback",
+      "body": "Assured value on your heirloom pieces.",
+      "icon": "Award"
+    },
+    {
+      "title": "Handcrafted Care",
+      "body": "Every piece made by master karigars.",
+      "icon": "Heart"
+    },
+    {
+      "title": "Bespoke Service",
+      "body": "Custom bridal trunks and private fittings.",
+      "icon": "Sparkles"
+    }
+  ],
+  "sectionLayout": {
+    "hidden": [],
+    "order": [
+      "hero",
+      "quote",
+      "craft",
+      "polki",
+      "trust"
+    ],
+    "customSections": []
+  }
+}
