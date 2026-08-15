@@ -5,6 +5,7 @@ import mongoose from "mongoose";
 import path from "path";
 import http from "http";
 import { fileURLToPath } from "url";
+import fs from "fs";
 
 import authRoutes from "./routes/authRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
@@ -47,6 +48,7 @@ import {
   localeRoutes,
   channelRoutes,
   roleRoutes,
+  jewelryTypeRoutes,
 } from "./routes/entityRoutes.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import { UPLOAD_DIR } from "./middleware/upload.js";
@@ -113,6 +115,15 @@ app.use("/api/media", mediaRoutes);
 app.use("/api/locales", localeRoutes);
 app.use("/api/channels", channelRoutes);
 app.use("/api/roles", roleRoutes);
+app.use("/api/jewelry-types", jewelryTypeRoutes);
+
+const frontendDist = path.join(__dirname, "..", "frontend", "dist");
+if (fs.existsSync(frontendDist)) {
+  app.use("/jewel", express.static(frontendDist));
+  app.get("/jewel/*", (req, res) => {
+    res.sendFile(path.join(frontendDist, "index.html"));
+  });
+}
 
 app.use(errorHandler);
 

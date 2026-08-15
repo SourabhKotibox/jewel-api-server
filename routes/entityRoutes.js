@@ -20,6 +20,7 @@ import MediaAsset from "../models/MediaAsset.js";
 import Locale from "../models/Locale.js";
 import Channel from "../models/Channel.js";
 import Role from "../models/Role.js";
+import JewelryType from "../models/JewelryType.js";
 
 export const inventoryRoutes = createCrudRouter(Inventory, {
   searchFields: ["name", "sku", "source"],
@@ -118,4 +119,8 @@ export const channelRoutes = createCrudRouter(Channel, {
 
 export const roleRoutes = createCrudRouter(Role, {
   searchFields: ["name", "permissions"],
+});
+
+export const jewelryTypeRoutes = createCrudRouter(JewelryType, {
+  searchFields: ["name", "slug"],
 });

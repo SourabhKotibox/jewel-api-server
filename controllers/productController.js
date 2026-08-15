@@ -8,7 +8,7 @@ import {
   mergeMetalRates,
 } from "../utils/metalPricing.js";
 
-function map(p, metalRates) {
+function map(req, p, metalRates) {
   const o = p.toObject ? p.toObject() : p;
   const attributes = mapToObject(o.attributes);
   const specifications = mapToObject(o.specifications);
@@ -25,10 +25,19 @@ function map(p, metalRates) {
       ? variants.reduce((s, v) => s + (Number(v.stock) || 0), 0)
       : Number(o.stock) || 0;
 
+  const resolveImageUrl = (src) => {
+    if (!src) return src;
+    if (/^https?:\/\//i.test(src) || src.startsWith("data:")) return src;
+    const protocol = req?.protocol || "http";
+    const host = req?.get("host") || "";
+    return `${protocol}://${host}${src.startsWith("/") ? src : `/${src}`}`;
+  };
+
   const rates = metalRates || mergeMetalRates();
   const base = {
     ...o,
     id: o.sku || String(o._id),
+    images: (o.images || []).map(resolveImageUrl),
     attributes,
     specifications,
     variants,
@@ -230,7 +239,7 @@ export async function getProducts(req, res, next) {
 
     const rates = await loadMetalRates();
     const products = await Product.find(filter).sort({ createdAt: -1 });
-    res.json(products.map((p) => map(p, rates)));
+    res.json(products.map((p) => map(req, p, rates)));
   } catch (err) {
     next(err);
   }
@@ -247,7 +256,7 @@ export async function getProduct(req, res, next) {
       return res.status(404).json({ message: "Product not found" });
     }
     const rates = await loadMetalRates();
-    res.json(map(product, rates));
+    res.json(map(req, product, rates));
   } catch (err) {
     next(err);
   }
@@ -275,7 +284,7 @@ export async function createProduct(req, res, next) {
       await Category.findByIdAndUpdate(product.categoryId, { $inc: { productCount: 1 } });
     }
     const rates = await loadMetalRates();
-    res.status(201).json(map(product, rates));
+    res.status(201).json(map(req, product, rates));
   } catch (err) {
     next(err);
   }
@@ -300,7 +309,7 @@ export async function updateProduct(req, res, next) {
       await syncProductInventory(product);
     }
     const rates = await loadMetalRates();
-    res.json(map(product, rates));
+    res.json(map(req, product, rates));
   } catch (err) {
     next(err);
   }
