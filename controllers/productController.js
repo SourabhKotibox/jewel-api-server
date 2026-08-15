@@ -27,10 +27,16 @@ function map(req, p, metalRates) {
 
   const resolveImageUrl = (src) => {
     if (!src) return src;
-    if (/^https?:\/\//i.test(src) || src.startsWith("data:")) return src;
+    if (src.startsWith("data:")) return src; // keep data URIs as-is
     const protocol = req?.protocol || "http";
     const host = req?.get("host") || "";
-    return `${protocol}://${host}${src.startsWith("/") ? src : `/${src}`}`;
+    // If already absolute, extract just the path so we can rebuild with the real host
+    let pathname = src;
+    if (/^https?:\/\//i.test(src)) {
+      try { pathname = new URL(src).pathname; } catch { return src; }
+    }
+    if (!host) return src; // can't resolve without host — return as-is
+    return `${protocol}://${host}${pathname.startsWith("/") ? pathname : `/${pathname}`}`;
   };
 
   const rates = metalRates || mergeMetalRates();
@@ -140,6 +146,17 @@ function normalizeProductBody(body, req) {
   return next;
 }
 
+function stripOrigin(url) {
+  if (!url) return url;
+  // Convert absolute http(s)://host/uploads/... → /uploads/... for portable storage
+  try {
+    const u = new URL(url);
+    return u.pathname; // e.g. /uploads/1234-img.jpg
+  } catch {
+    return url; // already relative or data: URI
+  }
+}
+
 function normalizeImages(body, req) {
   if (req.files?.length) {
     body.images = req.files.map((f) => fileUrl(f.filename));
@@ -154,19 +171,21 @@ function normalizeImages(body, req) {
     try {
       const parsed = JSON.parse(body.images);
       body.images = Array.isArray(parsed)
-        ? parsed.map(String).filter(Boolean)
+        ? parsed.map(String).filter(Boolean).map(stripOrigin)
         : String(body.images)
             .split("\n")
             .map((s) => s.trim())
-            .filter(Boolean);
+            .filter(Boolean)
+            .map(stripOrigin);
     } catch {
       body.images = String(body.images)
         .split("\n")
         .map((s) => s.trim())
-        .filter(Boolean);
+        .filter(Boolean)
+        .map(stripOrigin);
     }
   } else if (Array.isArray(body.images)) {
-    body.images = body.images.map(String).filter(Boolean);
+    body.images = body.images.map(String).filter(Boolean).map(stripOrigin);
   }
 }
 
