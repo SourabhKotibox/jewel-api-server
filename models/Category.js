@@ -17,6 +17,7 @@ const categorySchema = new mongoose.Schema(
     parent: { type: mongoose.Schema.Types.ObjectId, ref: "Category", default: null },
     status: { type: String, enum: ["Active", "Draft"], default: "Active" },
     sortOrder: { type: Number, default: 0 },
+    hidden: { type: Boolean, default: false },
   },
   { timestamps: true }
 );

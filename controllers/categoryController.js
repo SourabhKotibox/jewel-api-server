@@ -83,3 +83,19 @@ export async function deleteCategory(req, res, next) {
     next(err);
   }
 }
+
+export async function toggleHidden(req, res, next) {
+  try {
+    const category = await Category.findById(req.params.id);
+    if (!category) return res.status(404).json({ message: "Category not found" });
+    const nextHidden = !category.hidden;
+    const updated = await Category.findByIdAndUpdate(
+      req.params.id,
+      { hidden: nextHidden },
+      { new: true }
+    );
+    res.json(map(updated));
+  } catch (err) {
+    next(err);
+  }
+}
